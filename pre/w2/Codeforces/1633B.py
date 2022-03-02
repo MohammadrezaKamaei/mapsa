@@ -3,8 +3,8 @@ for _ in range(int(input())):
   sefr = s.count('0')
   yek  = s.count('1')
   if sefr > yek :
-    print (yek)
+    print ("1")
   elif sefr < yek:
-      print(sefr)
+      print("0")
   else:
       print("0")
